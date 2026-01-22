@@ -1,0 +1,38 @@
+[[packages]]
+# github = "https://github.com/rokubop/talon-ui-elements"
+path = "../talon-ui-elements"
+
+[[packages]]
+# github = "https://github.com/rokubop/talon-manifest-generator"
+path = "../talon-manifest-generator"
+
+[[packages]]
+# github = "https://github.com/rokubop/talon-parrot-tester"
+path = "../talon-parrot-tester"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-input-map"
+path = "../talon-input-map"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-parrot-rig"
+path = "../talon-parrot-rig"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-mouse-rig"
+path = "../talon-mouse-rig"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-pynput-slot"
+path = "../talon-pynput-slot"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-face-tester"
+path = "../talon-face-tester"
+
+[[packages]]
+path = "../talon-parrot-roku-model"
+
+[[packages]]
+# # github = "https://github.com/rokubop/talon-obs-integration"
+path = "../talon-obs-integration"

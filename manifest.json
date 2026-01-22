@@ -1,0 +1,24 @@
+{
+  "name": "talon-hub-roku",
+  "title": "Talon Hub Roku",
+  "description": "A collection of my Talon repos for UI, mouse control, input mapping, parrot, and gaming you may find useful.",
+  "version": "0.1.0",
+  "status": "reference",
+  "namespace": "",
+  "github": "https://github.com/rokubop/talon-hub-roku",
+  "preview": "",
+  "author": "Rokubop",
+  "tags": [
+    "hub"
+  ],
+  "license": "Unlicense",
+  "dependencies": {},
+  "devDependencies": {},
+  "contributes": {},
+  "depends": {},
+  "_generator": "talon-manifest-generator",
+  "_generatorVersion": "2.0.0",
+  "_generatorRequiresVersionAction": false,
+  "_generatorStrictNamespace": true,
+  "_generatorFrozenFields": []
+}
