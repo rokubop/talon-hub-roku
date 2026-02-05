@@ -12,6 +12,7 @@ This is auto-generated from repo manifests.
 | **[talon&#8209;pack](#talon-pack)** | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
 | **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
+| **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | Control your mouse with position, speed, direction, and vector commands, over time and with advanced behaviors |
 
 ---
 
@@ -180,6 +181,85 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 - `user.stable_input_is_enabled`
 - `user.stable_input_is_held`
 - `user.stable_input_version`
+
+</details>
+
+---
+
+
+### talon&#8209;mouse&#8209;rig
+
+🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
+
+![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-prototype-red) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+
+Control your mouse with position, speed, direction, and vector commands, over time and with advanced behaviors
+
+| | |
+|---|---|
+| **Namespace** | `user.mouse_rig` |
+| **Tags** | mouse, movement |
+| **License** | MIT |
+| **Dev Dependencies** | talon-ui-elements `v0.13.0` |
+| **Contributes** | 46 actions, 5 settings |
+
+<details>
+<summary>View all contributions</summary>
+
+**Actions:**
+- `user.mouse_rig`
+- `user.mouse_rig_direction_by`
+- `user.mouse_rig_direction_down`
+- `user.mouse_rig_direction_left`
+- `user.mouse_rig_direction_right`
+- `user.mouse_rig_direction_to`
+- `user.mouse_rig_direction_up`
+- `user.mouse_rig_go_direction`
+- `user.mouse_rig_go_down`
+- `user.mouse_rig_go_left`
+- `user.mouse_rig_go_right`
+- `user.mouse_rig_go_up`
+- `user.mouse_rig_pos_by`
+- `user.mouse_rig_pos_by_value`
+- `user.mouse_rig_pos_to`
+- `user.mouse_rig_reload`
+- `user.mouse_rig_reset`
+- `user.mouse_rig_reverse`
+- `user.mouse_rig_scroll_direction_by`
+- `user.mouse_rig_scroll_direction_down`
+- `user.mouse_rig_scroll_direction_left`
+- `user.mouse_rig_scroll_direction_right`
+- `user.mouse_rig_scroll_direction_to`
+- `user.mouse_rig_scroll_direction_up`
+- `user.mouse_rig_scroll_go_direction`
+- `user.mouse_rig_scroll_go_down`
+- `user.mouse_rig_scroll_go_left`
+- `user.mouse_rig_scroll_go_right`
+- `user.mouse_rig_scroll_go_up`
+- `user.mouse_rig_scroll_increment_by`
+- `user.mouse_rig_scroll_increment_to`
+- `user.mouse_rig_scroll_speed_add`
+- `user.mouse_rig_scroll_speed_to`
+- `user.mouse_rig_speed_add`
+- `user.mouse_rig_speed_mul`
+- `user.mouse_rig_speed_to`
+- `user.mouse_rig_state_direction`
+- `user.mouse_rig_state_direction_cardinal`
+- `user.mouse_rig_state_direction_x`
+- `user.mouse_rig_state_direction_y`
+- `user.mouse_rig_state_is_moving`
+- `user.mouse_rig_state_pos`
+- `user.mouse_rig_state_speed`
+- `user.mouse_rig_stop`
+- `user.mouse_rig_test_toggle_ui`
+- `user.mouse_rig_version`
+
+**Settings:**
+- `user.mouse_rig_api`
+- `user.mouse_rig_frame_interval`
+- `user.mouse_rig_manual_movement_timeout_ms`
+- `user.mouse_rig_pause_on_manual_movement`
+- `user.mouse_rig_scale`
 
 </details>
 

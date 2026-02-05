@@ -10,6 +10,9 @@ github = "https://github.com/rokubop/talon-parrot-tester"
 [[packages]]
 github = "https://github.com/rokubop/talon-stable-input"
 
+[[packages]]
+github = "https://github.com/rokubop/talon-mouse-rig"
+
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-input-map"
 # path = "../talon-input-map"
@@ -18,9 +21,6 @@ github = "https://github.com/rokubop/talon-stable-input"
 # # # github = "https://github.com/rokubop/talon-parrot-rig"
 # path = "../talon-parrot-rig"
 
-# [[packages]]
-# # # github = "https://github.com/rokubop/talon-mouse-rig"
-# path = "../talon-mouse-rig"
 
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-face-tester"
