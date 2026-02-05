@@ -8,17 +8,17 @@ This is auto-generated from repo manifests.
 
 | Name | Description |
 |------|-------------|
-| <nobr>**[talon-ui-elements](#talon-ui-elements)**</nobr> | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
-| <nobr>**[talon-pack](#talon-pack)**</nobr> | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
-| <nobr>**[talon-parrot-tester](#talon-parrot-tester)**</nobr> | Visual tool for testing parrot integration with Talon |
-| <nobr>**[talon-stable-input](#talon-stable-input)**</nobr> | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
+| **[talon&#8209;ui&#8209;elements](#talon-ui-elements)** | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
+| **[talon&#8209;pack](#talon-pack)** | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
+| **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
+| **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 
 ---
 
 ## Repo Details
 
 
-### talon-ui-elements
+### talon&#8209;ui&#8209;elements
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
@@ -91,7 +91,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 ---
 
 
-### talon-pack
+### talon&#8209;pack
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
@@ -110,7 +110,7 @@ Catalogs your Talon repo's contributions and dependencies, generates version val
 ---
 
 
-### talon-parrot-tester
+### talon&#8209;parrot&#8209;tester
 
 🔗 **GitHub:** [rokubop/talon-parrot-tester](https://github.com/rokubop/talon-parrot-tester)
 
@@ -146,7 +146,7 @@ Visual tool for testing parrot integration with Talon
 ---
 
 
-### talon-stable-input
+### talon&#8209;stable&#8209;input
 
 🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
 

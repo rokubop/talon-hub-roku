@@ -98,13 +98,19 @@ def format_status(status: str) -> str:
     return status.title()
 
 
+def format_name_display(name: str) -> str:
+    """Format name for display using non-breaking dashes to prevent line wrapping."""
+    return name.replace("-", "&#8209;")  # HTML entity for non-breaking hyphen
+
+
 def generate_table_row(manifest: dict) -> str:
     """Generate a table row for the packages overview."""
     name = manifest.get("name", "")
     description = manifest.get("description", "")
 
-    # Create bold link to package details with nobr to prevent wrapping
-    name_link = f"<nobr>**[{name}](#{name})**</nobr>"
+    # Create bold link to package details with non-breaking dashes to prevent wrapping
+    display_name = format_name_display(name)
+    name_link = f"**[{display_name}](#{name})**"
 
     return f"| {name_link} | {description} |"
 
@@ -124,8 +130,9 @@ def generate_package_details(manifest: dict) -> str:
     platforms = manifest.get("platforms", [])
     license_type = manifest.get("license", "")
 
-    # Start with header
-    details = f"\n### {name}\n\n"
+    # Start with header using non-breaking dashes for display
+    display_name = format_name_display(name)
+    details = f"\n### {display_name}\n\n"
 
     # GitHub link prominently after header
     if github:
