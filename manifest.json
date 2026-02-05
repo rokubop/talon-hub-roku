@@ -11,13 +11,13 @@
   "tags": [
     "hub"
   ],
-  "license": "Unlicense",
+  "license": "",
   "dependencies": {},
   "devDependencies": {},
   "contributes": {},
   "depends": {},
-  "_generator": "talon-manifest-generator",
-  "_generatorVersion": "2.0.0",
+  "_generator": "talon-pack",
+  "_generatorVersion": "3.0.0",
   "_generatorRequiresVersionAction": false,
   "_generatorStrictNamespace": true,
   "_generatorFrozenFields": []

@@ -9,8 +9,9 @@ This is auto-generated from repo manifests.
 | Name | Description |
 |------|-------------|
 | <nobr>**[talon-ui-elements](#talon-ui-elements)**</nobr> | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
-| <nobr>**[talon-manifest-generator](#talon-manifest-generator)**</nobr> | Scripts for generating package-like files for your Talon repo such as manifest.json and _version.py with automatic detection for contributions and dependencies |
+| <nobr>**[talon-pack](#talon-pack)**</nobr> | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
 | <nobr>**[talon-parrot-tester](#talon-parrot-tester)**</nobr> | Visual tool for testing parrot integration with Talon |
+| <nobr>**[talon-stable-input](#talon-stable-input)**</nobr> | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 
 ---
 
@@ -21,7 +22,7 @@ This is auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.13.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.14.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -90,16 +91,19 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 ---
 
 
-### talon-manifest-generator
+### talon-pack
 
-🔗 **GitHub:** [rokubop/talon-manifest-generator](https://github.com/rokubop/talon-manifest-generator)
+🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-manifest-generator?style=social)
+![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
-Scripts for generating package-like files for your Talon repo such as manifest.json and _version.py with automatic detection for contributions and dependencies
+Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg" width="400">
 
 | | |
 |---|---|
+| **Tags** | package, manifest, version, badges |
 | **License** | Unlicense |
 
 
@@ -110,7 +114,7 @@ Scripts for generating package-like files for your Talon repo such as manifest.j
 
 🔗 **GitHub:** [rokubop/talon-parrot-tester](https://github.com/rokubop/talon-parrot-tester)
 
-![Version](https://img.shields.io/badge/version-0.7.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-tester?style=social)
+![Version](https://img.shields.io/badge/version-0.8.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-tester?style=social)
 
 Visual tool for testing parrot integration with Talon
 
@@ -121,7 +125,7 @@ Visual tool for testing parrot integration with Talon
 | **Namespace** | `user.parrot_tester` |
 | **Tags** | parrot |
 | **License** | MIT |
-| **Dependencies** | talon-ui-elements `v0.13.0` |
+| **Dependencies** | talon-ui-elements `v0.14.0` |
 | **Contributes** | 5 actions, 1 tags |
 
 <details>
@@ -136,6 +140,46 @@ Visual tool for testing parrot integration with Talon
 
 **Tags:**
 - `user.parrot_tester`
+
+</details>
+
+---
+
+
+### talon-stable-input
+
+🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-stable-input?style=social)
+
+Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg" width="400">
+
+| | |
+|---|---|
+| **Namespace** | `user.stable_input` |
+| **Tags** | stable, input, pedal, keys |
+| **License** | MIT |
+| **Contributes** | 13 actions |
+
+<details>
+<summary>View all contributions</summary>
+
+**Actions:**
+- `user.stable_input_1_down`
+- `user.stable_input_1_up`
+- `user.stable_input_2_down`
+- `user.stable_input_2_up`
+- `user.stable_input_3_down`
+- `user.stable_input_3_up`
+- `user.stable_input_4_down`
+- `user.stable_input_4_up`
+- `user.stable_input_disable`
+- `user.stable_input_enable`
+- `user.stable_input_is_enabled`
+- `user.stable_input_is_held`
+- `user.stable_input_version`
 
 </details>
 
