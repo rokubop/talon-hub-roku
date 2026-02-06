@@ -27,7 +27,7 @@ This is auto-generated from repo manifests.
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-ui-elements/main/examples/ui_elements_preview.png" width="400">
+<img src="https://raw.githubusercontent.com/rokubop/talon-ui-elements/main/examples/ui_elements_preview.png" style="max-width: 450px;">
 
 | | |
 |---|---|
@@ -100,7 +100,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges.
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg" width="400">
+<img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg" style="max-width: 450px;">
 
 | | |
 |---|---|
@@ -119,7 +119,7 @@ Catalogs your Talon repo's contributions and dependencies, generates version val
 
 Visual tool for testing parrot integration with Talon
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-parrot-tester/main/preview.png" width="400">
+<img src="https://raw.githubusercontent.com/rokubop/talon-parrot-tester/main/preview.png" style="max-width: 450px;">
 
 | | |
 |---|---|
@@ -155,7 +155,7 @@ Visual tool for testing parrot integration with Talon
 
 Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg" width="400">
+<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg" style="max-width: 450px;">
 
 | | |
 |---|---|
@@ -195,7 +195,7 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-mouse-rig/main/preview.svg" width="400">
+<img src="https://raw.githubusercontent.com/rokubop/talon-mouse-rig/main/preview.svg" style="max-width: 450px;">
 
 | | |
 |---|---|
