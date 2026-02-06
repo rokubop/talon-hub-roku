@@ -191,9 +191,11 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.6.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-mouse-rig/main/preview.svg" width="400">
 
 | | |
 |---|---|
@@ -201,7 +203,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Tags** | mouse, movement |
 | **License** | MIT |
 | **Dev Dependencies** | talon-ui-elements `v0.14.0` |
-| **Contributes** | 44 actions, 5 settings |
+| **Contributes** | 47 actions, 5 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -225,6 +227,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_reload`
 - `user.mouse_rig_reset`
 - `user.mouse_rig_reverse`
+- `user.mouse_rig_scroll_by`
 - `user.mouse_rig_scroll_direction_by`
 - `user.mouse_rig_scroll_direction_down`
 - `user.mouse_rig_scroll_direction_left`
@@ -237,7 +240,9 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_scroll_go_right`
 - `user.mouse_rig_scroll_go_up`
 - `user.mouse_rig_scroll_speed_add`
+- `user.mouse_rig_scroll_speed_mul`
 - `user.mouse_rig_scroll_speed_to`
+- `user.mouse_rig_scroll_stop`
 - `user.mouse_rig_speed_add`
 - `user.mouse_rig_speed_mul`
 - `user.mouse_rig_speed_to`
