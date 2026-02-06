@@ -14,6 +14,10 @@ from typing import Any
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+from image_utils import get_image_width
+
+MAX_PREVIEW_WIDTH = 450
+
 
 def load_manifest_from_local(local_path: str, base_dir: Path) -> dict[str, Any] | None:
     """Load manifest.json from a local path (supports relative paths)."""
@@ -166,7 +170,11 @@ def generate_package_details(manifest: dict) -> str:
 
     # Add preview image if available
     if preview:
-        details += f"<table border=\"0\"><tr><td width=\"450\">\n<img src=\"{preview}\">\n</td></tr></table>\n\n"
+        width = get_image_width(preview)
+        if width and width > MAX_PREVIEW_WIDTH:
+            details += f"<img src=\"{preview}\" width=\"{MAX_PREVIEW_WIDTH}\">\n\n"
+        else:
+            details += f"<img src=\"{preview}\">\n\n"
 
     # Compact table for package metadata
     details += "| | |\n"
