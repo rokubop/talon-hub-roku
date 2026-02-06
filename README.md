@@ -27,7 +27,7 @@ This is auto-generated from repo manifests.
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
-<table><tr><td width="450">
+<table border="0"><tr><td width="450">
 <img src="https://raw.githubusercontent.com/rokubop/talon-ui-elements/main/examples/ui_elements_preview.png">
 </td></tr></table>
 
@@ -102,7 +102,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges.
 
-<table><tr><td width="450">
+<table border="0"><tr><td width="450">
 <img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg">
 </td></tr></table>
 
@@ -123,7 +123,7 @@ Catalogs your Talon repo's contributions and dependencies, generates version val
 
 Visual tool for testing parrot integration with Talon
 
-<table><tr><td width="450">
+<table border="0"><tr><td width="450">
 <img src="https://raw.githubusercontent.com/rokubop/talon-parrot-tester/main/preview.png">
 </td></tr></table>
 
@@ -161,7 +161,7 @@ Visual tool for testing parrot integration with Talon
 
 Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
 
-<table><tr><td width="450">
+<table border="0"><tr><td width="450">
 <img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg">
 </td></tr></table>
 
@@ -203,7 +203,7 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
-<table><tr><td width="450">
+<table border="0"><tr><td width="450">
 <img src="https://raw.githubusercontent.com/rokubop/talon-mouse-rig/main/preview.svg">
 </td></tr></table>
 
