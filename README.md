@@ -12,7 +12,7 @@ This is auto-generated from repo manifests.
 | **[talon&#8209;pack](#talon-pack)** | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
 | **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
-| **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | Control your mouse with position, speed, direction, and vector commands, over time and with advanced behaviors |
+| **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
 
 ---
 
@@ -191,17 +191,17 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-prototype-red) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
-Control your mouse with position, speed, direction, and vector commands, over time and with advanced behaviors
+All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
 | | |
 |---|---|
 | **Namespace** | `user.mouse_rig` |
 | **Tags** | mouse, movement |
 | **License** | MIT |
-| **Dev Dependencies** | talon-ui-elements `v0.13.0` |
-| **Contributes** | 46 actions, 5 settings |
+| **Dev Dependencies** | talon-ui-elements `v0.14.0` |
+| **Contributes** | 44 actions, 5 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -236,8 +236,6 @@ Control your mouse with position, speed, direction, and vector commands, over ti
 - `user.mouse_rig_scroll_go_left`
 - `user.mouse_rig_scroll_go_right`
 - `user.mouse_rig_scroll_go_up`
-- `user.mouse_rig_scroll_increment_by`
-- `user.mouse_rig_scroll_increment_to`
 - `user.mouse_rig_scroll_speed_add`
 - `user.mouse_rig_scroll_speed_to`
 - `user.mouse_rig_speed_add`
