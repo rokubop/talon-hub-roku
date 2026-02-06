@@ -166,7 +166,7 @@ def generate_package_details(manifest: dict) -> str:
 
     # Add preview image if available
     if preview:
-        details += f"<img src=\"{preview}\" style=\"max-width: 450px;\">\n\n"
+        details += f"<table><tr><td width=\"450\">\n<img src=\"{preview}\">\n</td></tr></table>\n\n"
 
     # Compact table for package metadata
     details += "| | |\n"
