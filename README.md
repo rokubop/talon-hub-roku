@@ -13,6 +13,7 @@ This is auto-generated from repo manifests.
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
 | **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 | **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
+| **[talon&#8209;input&#8209;map](#talon-input-map)** | This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source. |
 
 ---
 
@@ -191,7 +192,7 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-0.6.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.7.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -203,7 +204,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Tags** | mouse, movement |
 | **License** | MIT |
 | **Dev Dependencies** | talon-ui-elements `v0.14.0` |
-| **Contributes** | 47 actions, 5 settings |
+| **Contributes** | 49 actions, 5 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -243,6 +244,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_scroll_speed_mul`
 - `user.mouse_rig_scroll_speed_to`
 - `user.mouse_rig_scroll_stop`
+- `user.mouse_rig_sequence`
 - `user.mouse_rig_speed_add`
 - `user.mouse_rig_speed_mul`
 - `user.mouse_rig_speed_to`
@@ -256,6 +258,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_stop`
 - `user.mouse_rig_test_toggle_ui`
 - `user.mouse_rig_version`
+- `user.mouse_rig_wait`
 
 **Settings:**
 - `user.mouse_rig_api`
@@ -263,6 +266,78 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_manual_movement_timeout_ms`
 - `user.mouse_rig_pause_on_manual_movement`
 - `user.mouse_rig_scale`
+
+</details>
+
+---
+
+
+### talon&#8209;input&#8209;map
+
+🔗 **GitHub:** [rokubop/talon-input-map/](https://github.com/rokubop/talon-input-map/)
+
+![Version](https://img.shields.io/badge/version-0.6.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map/?style=social)
+
+This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-input-map/main/preview.svg">
+
+| | |
+|---|---|
+| **Namespace** | `user.input_map` |
+| **Tags** | parrot, noise, foot pedal, face |
+| **License** | MIT |
+| **Contributes** | 42 actions, 1 settings |
+
+<details>
+<summary>View all contributions</summary>
+
+**Actions:**
+- `user.input_map`
+- `user.input_map_channel_event_register`
+- `user.input_map_channel_event_unregister`
+- `user.input_map_channel_get`
+- `user.input_map_channel_get_legend`
+- `user.input_map_channel_handle`
+- `user.input_map_channel_handle_bool`
+- `user.input_map_channel_handle_parrot`
+- `user.input_map_channel_handle_value`
+- `user.input_map_channel_handle_xy`
+- `user.input_map_channel_list`
+- `user.input_map_channel_mode_cycle`
+- `user.input_map_channel_mode_get`
+- `user.input_map_channel_mode_revert`
+- `user.input_map_channel_mode_set`
+- `user.input_map_channel_register`
+- `user.input_map_channel_unregister`
+- `user.input_map_event_register`
+- `user.input_map_event_unregister`
+- `user.input_map_get`
+- `user.input_map_get_legend`
+- `user.input_map_handle`
+- `user.input_map_handle_bool`
+- `user.input_map_handle_parrot`
+- `user.input_map_handle_value`
+- `user.input_map_handle_xy`
+- `user.input_map_mode_cycle`
+- `user.input_map_mode_get`
+- `user.input_map_mode_revert`
+- `user.input_map_mode_set`
+- `user.input_map_single`
+- `user.input_map_single_bool`
+- `user.input_map_single_get_legend`
+- `user.input_map_single_mode_cycle`
+- `user.input_map_single_mode_get`
+- `user.input_map_single_mode_revert`
+- `user.input_map_single_mode_set`
+- `user.input_map_single_parrot`
+- `user.input_map_single_value`
+- `user.input_map_single_xy`
+- `user.input_map_tests`
+- `user.input_map_version`
+
+**Settings:**
+- `user.input_map_combo_window`
 
 </details>
 
