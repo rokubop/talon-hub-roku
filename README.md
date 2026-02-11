@@ -11,9 +11,9 @@ This is auto-generated from repo manifests.
 | **[talon&#8209;ui&#8209;elements](#talon-ui-elements)** | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
 | **[talon&#8209;pack](#talon-pack)** | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
-| **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 | **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
 | **[talon&#8209;input&#8209;map](#talon-input-map)** | This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source. |
+| **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 
 ---
 
@@ -24,10 +24,7 @@ This is auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
-![Status](https://img.shields.io/badge/status-reference-blue)
-
-![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.14.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -145,46 +142,6 @@ Visual tool for testing parrot integration with Talon
 
 **Tags:**
 - `user.parrot_tester`
-
-</details>
-
----
-
-
-### talon&#8209;stable&#8209;input
-
-🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
-
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-stable-input?style=social)
-
-Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
-
-<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg">
-
-| | |
-|---|---|
-| **Namespace** | `user.stable_input` |
-| **Tags** | stable, input, pedal, keys |
-| **License** | MIT |
-| **Contributes** | 13 actions |
-
-<details>
-<summary>View all contributions</summary>
-
-**Actions:**
-- `user.stable_input_1_down`
-- `user.stable_input_1_up`
-- `user.stable_input_2_down`
-- `user.stable_input_2_up`
-- `user.stable_input_3_down`
-- `user.stable_input_3_up`
-- `user.stable_input_4_down`
-- `user.stable_input_4_up`
-- `user.stable_input_disable`
-- `user.stable_input_enable`
-- `user.stable_input_is_enabled`
-- `user.stable_input_is_held`
-- `user.stable_input_version`
 
 </details>
 
@@ -341,6 +298,46 @@ This is an alternate way to define your input commands in a way that supports co
 
 **Settings:**
 - `user.input_map_combo_window`
+
+</details>
+
+---
+
+
+### talon&#8209;stable&#8209;input
+
+🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-stable-input?style=social)
+
+Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg">
+
+| | |
+|---|---|
+| **Namespace** | `user.stable_input` |
+| **Tags** | stable, input, pedal, keys |
+| **License** | MIT |
+| **Contributes** | 13 actions |
+
+<details>
+<summary>View all contributions</summary>
+
+**Actions:**
+- `user.stable_input_1_down`
+- `user.stable_input_1_up`
+- `user.stable_input_2_down`
+- `user.stable_input_2_up`
+- `user.stable_input_3_down`
+- `user.stable_input_3_up`
+- `user.stable_input_4_down`
+- `user.stable_input_4_up`
+- `user.stable_input_disable`
+- `user.stable_input_enable`
+- `user.stable_input_is_enabled`
+- `user.stable_input_is_held`
+- `user.stable_input_version`
 
 </details>
 

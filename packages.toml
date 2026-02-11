@@ -8,13 +8,13 @@ github = "https://github.com/rokubop/talon-pack"
 github = "https://github.com/rokubop/talon-parrot-tester"
 
 [[packages]]
-github = "https://github.com/rokubop/talon-stable-input"
-
-[[packages]]
 github = "https://github.com/rokubop/talon-mouse-rig"
 
 [[packages]]
 github = "https://github.com/rokubop/talon-input-map"
+
+[[packages]]
+github = "https://github.com/rokubop/talon-stable-input"
 
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-parrot-rig"
