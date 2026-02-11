@@ -1,8 +1,8 @@
 # Talon Hub Roku
 
-A collection of my Talon repos for UI, mouse control, input mapping, parrot, and gaming you may find useful.
+A collection of my Talon repos for UI, mouse control, input mapping, parrot, and eventually gaming.
 
-This is auto-generated from repo manifests.
+Auto-generated from repo manifests.
 
 ## Repos
 
