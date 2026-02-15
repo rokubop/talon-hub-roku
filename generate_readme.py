@@ -140,7 +140,7 @@ def generate_package_details(manifest: dict) -> str:
 
     # GitHub link prominently after header
     if github:
-        repo_path = github.replace("https://github.com/", "")
+        repo_path = github.replace("https://github.com/", "").rstrip("/")
         details += f"🔗 **GitHub:** [{repo_path}]({github})\n\n"
 
     # Shields badges
@@ -160,7 +160,7 @@ def generate_package_details(manifest: dict) -> str:
 
     if github:
         # Add GitHub stars badge
-        repo_path = github.replace("https://github.com/", "")
+        repo_path = github.replace("https://github.com/", "").rstrip("/")
         badge_line += f" ![GitHub stars](https://img.shields.io/github/stars/{repo_path}?style=social)"
 
     details += badge_line + "\n\n"

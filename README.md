@@ -152,7 +152,7 @@ Visual tool for testing parrot integration with Talon
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-0.7.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -164,46 +164,49 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Tags** | mouse, movement |
 | **License** | MIT |
 | **Dev Dependencies** | talon-ui-elements `v0.14.0` |
-| **Contributes** | 49 actions, 5 settings |
+| **Contributes** | 52 actions, 16 settings |
 
 <details>
 <summary>View all contributions</summary>
 
 **Actions:**
 - `user.mouse_rig`
+- `user.mouse_rig_boost`
+- `user.mouse_rig_boost_start`
+- `user.mouse_rig_boost_stop`
 - `user.mouse_rig_direction_by`
-- `user.mouse_rig_direction_down`
-- `user.mouse_rig_direction_left`
-- `user.mouse_rig_direction_right`
 - `user.mouse_rig_direction_to`
-- `user.mouse_rig_direction_up`
-- `user.mouse_rig_go_direction`
-- `user.mouse_rig_go_down`
-- `user.mouse_rig_go_left`
-- `user.mouse_rig_go_right`
-- `user.mouse_rig_go_up`
-- `user.mouse_rig_pos_by`
-- `user.mouse_rig_pos_by_value`
+- `user.mouse_rig_go`
+- `user.mouse_rig_go_natural`
+- `user.mouse_rig_go_xy`
+- `user.mouse_rig_go_xy_natural`
+- `user.mouse_rig_move`
+- `user.mouse_rig_move_natural`
+- `user.mouse_rig_move_value`
+- `user.mouse_rig_move_xy`
+- `user.mouse_rig_move_xy_natural`
 - `user.mouse_rig_pos_to`
+- `user.mouse_rig_pos_to_natural`
 - `user.mouse_rig_reload`
 - `user.mouse_rig_reset`
 - `user.mouse_rig_reverse`
-- `user.mouse_rig_scroll_by`
+- `user.mouse_rig_scroll`
+- `user.mouse_rig_scroll_boost`
+- `user.mouse_rig_scroll_boost_start`
+- `user.mouse_rig_scroll_boost_stop`
 - `user.mouse_rig_scroll_direction_by`
-- `user.mouse_rig_scroll_direction_down`
-- `user.mouse_rig_scroll_direction_left`
-- `user.mouse_rig_scroll_direction_right`
 - `user.mouse_rig_scroll_direction_to`
-- `user.mouse_rig_scroll_direction_up`
-- `user.mouse_rig_scroll_go_direction`
-- `user.mouse_rig_scroll_go_down`
-- `user.mouse_rig_scroll_go_left`
-- `user.mouse_rig_scroll_go_right`
-- `user.mouse_rig_scroll_go_up`
+- `user.mouse_rig_scroll_go`
+- `user.mouse_rig_scroll_go_natural`
+- `user.mouse_rig_scroll_go_xy`
+- `user.mouse_rig_scroll_go_xy_natural`
+- `user.mouse_rig_scroll_natural`
 - `user.mouse_rig_scroll_speed_add`
 - `user.mouse_rig_scroll_speed_mul`
 - `user.mouse_rig_scroll_speed_to`
 - `user.mouse_rig_scroll_stop`
+- `user.mouse_rig_scroll_xy`
+- `user.mouse_rig_scroll_xy_natural`
 - `user.mouse_rig_sequence`
 - `user.mouse_rig_speed_add`
 - `user.mouse_rig_speed_mul`
@@ -224,8 +227,19 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_api`
 - `user.mouse_rig_frame_interval`
 - `user.mouse_rig_manual_movement_timeout_ms`
+- `user.mouse_rig_natural_move_easing`
+- `user.mouse_rig_natural_move_ms`
+- `user.mouse_rig_natural_pos_easing`
+- `user.mouse_rig_natural_pos_ms`
+- `user.mouse_rig_natural_scroll_easing`
+- `user.mouse_rig_natural_scroll_ms`
+- `user.mouse_rig_natural_speed_easing`
+- `user.mouse_rig_natural_speed_ms`
+- `user.mouse_rig_natural_turn_easing`
+- `user.mouse_rig_natural_turn_ms`
 - `user.mouse_rig_pause_on_manual_movement`
 - `user.mouse_rig_scale`
+- `user.mouse_rig_scroll_api`
 
 </details>
 
@@ -234,9 +248,9 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 
 ### talon&#8209;input&#8209;map
 
-🔗 **GitHub:** [rokubop/talon-input-map/](https://github.com/rokubop/talon-input-map/)
+🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-0.6.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map/?style=social)
+![Version](https://img.shields.io/badge/version-0.6.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
@@ -247,7 +261,7 @@ This is an alternate way to define your input commands in a way that supports co
 | **Namespace** | `user.input_map` |
 | **Tags** | parrot, noise, foot pedal, face |
 | **License** | MIT |
-| **Contributes** | 42 actions, 1 settings |
+| **Contributes** | 42 actions, 2 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -298,6 +312,7 @@ This is an alternate way to define your input commands in a way that supports co
 
 **Settings:**
 - `user.input_map_combo_window`
+- `user.input_map_edge_debounce_ms`
 
 </details>
 
