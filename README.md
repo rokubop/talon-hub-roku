@@ -97,7 +97,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
 Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges.
 
@@ -152,7 +152,7 @@ Visual tool for testing parrot integration with Talon
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -164,7 +164,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Tags** | mouse, movement |
 | **License** | MIT |
 | **Dev Dependencies** | talon-ui-elements `v0.14.0` |
-| **Contributes** | 46 actions, 16 settings |
+| **Contributes** | 43 actions, 16 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -175,27 +175,24 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_boost_start`
 - `user.mouse_rig_boost_stop`
 - `user.mouse_rig_button_prime`
-- `user.mouse_rig_direction`
-- `user.mouse_rig_go`
-- `user.mouse_rig_go_natural`
-- `user.mouse_rig_move`
-- `user.mouse_rig_move_natural`
-- `user.mouse_rig_move_value`
-- `user.mouse_rig_pos_to`
-- `user.mouse_rig_pos_to_natural`
+- `user.mouse_rig_move_continuous`
+- `user.mouse_rig_move_continuous_smooth`
+- `user.mouse_rig_move_delta`
+- `user.mouse_rig_move_delta_smooth`
+- `user.mouse_rig_move_reverse`
+- `user.mouse_rig_move_rotate`
+- `user.mouse_rig_move_stop`
+- `user.mouse_rig_move_to`
+- `user.mouse_rig_move_to_smooth`
 - `user.mouse_rig_reload`
 - `user.mouse_rig_reset`
-- `user.mouse_rig_reverse`
-- `user.mouse_rig_rotate`
-- `user.mouse_rig_scroll`
 - `user.mouse_rig_scroll_boost`
 - `user.mouse_rig_scroll_boost_start`
 - `user.mouse_rig_scroll_boost_stop`
-- `user.mouse_rig_scroll_direction`
-- `user.mouse_rig_scroll_direction_by`
-- `user.mouse_rig_scroll_go`
-- `user.mouse_rig_scroll_go_natural`
-- `user.mouse_rig_scroll_natural`
+- `user.mouse_rig_scroll_continuous`
+- `user.mouse_rig_scroll_continuous_smooth`
+- `user.mouse_rig_scroll_delta`
+- `user.mouse_rig_scroll_delta_smooth`
 - `user.mouse_rig_scroll_speed_add`
 - `user.mouse_rig_scroll_speed_mul`
 - `user.mouse_rig_scroll_speed_to`
@@ -221,19 +218,19 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 - `user.mouse_rig_api`
 - `user.mouse_rig_frame_interval`
 - `user.mouse_rig_manual_movement_timeout_ms`
-- `user.mouse_rig_natural_move_easing`
-- `user.mouse_rig_natural_move_ms`
-- `user.mouse_rig_natural_pos_easing`
-- `user.mouse_rig_natural_pos_ms`
-- `user.mouse_rig_natural_scroll_easing`
-- `user.mouse_rig_natural_scroll_ms`
-- `user.mouse_rig_natural_speed_easing`
-- `user.mouse_rig_natural_speed_ms`
-- `user.mouse_rig_natural_turn_easing`
-- `user.mouse_rig_natural_turn_ms`
 - `user.mouse_rig_pause_on_manual_movement`
 - `user.mouse_rig_scale`
 - `user.mouse_rig_scroll_api`
+- `user.mouse_rig_smooth_delta_easing`
+- `user.mouse_rig_smooth_delta_ms`
+- `user.mouse_rig_smooth_move_to_easing`
+- `user.mouse_rig_smooth_move_to_ms`
+- `user.mouse_rig_smooth_scroll_easing`
+- `user.mouse_rig_smooth_scroll_ms`
+- `user.mouse_rig_smooth_speed_easing`
+- `user.mouse_rig_smooth_speed_ms`
+- `user.mouse_rig_smooth_turn_easing`
+- `user.mouse_rig_smooth_turn_ms`
 
 </details>
 

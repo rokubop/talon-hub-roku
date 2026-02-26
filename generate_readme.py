@@ -14,6 +14,7 @@ from typing import Any
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from image_utils import get_image_width
 
 MAX_PREVIEW_WIDTH = 450
