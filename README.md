@@ -314,7 +314,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-0.6.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
+![Version](https://img.shields.io/badge/version-0.8.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
@@ -325,7 +325,7 @@ This is an alternate way to define your input commands in a way that supports co
 | **Namespace** | `user.input_map` |
 | **Tags** | parrot, noise, foot pedal, face |
 | **License** | MIT |
-| **Contributes** | 42 actions, 2 settings |
+| **Contributes** | 43 actions, 2 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -361,6 +361,7 @@ This is an alternate way to define your input commands in a way that supports co
 - `user.input_map_mode_get`
 - `user.input_map_mode_revert`
 - `user.input_map_mode_set`
+- `user.input_map_reset`
 - `user.input_map_single`
 - `user.input_map_single_bool`
 - `user.input_map_single_get_legend`
