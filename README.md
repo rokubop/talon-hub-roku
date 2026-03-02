@@ -23,7 +23,7 @@ Auto-generated from repo manifests.
 ## Repo Details
 
 
-### talon&#8209;ui&#8209;elements
+### talon-ui-elements
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
@@ -96,7 +96,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 ---
 
 
-### talon&#8209;pack
+### talon-pack
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
@@ -115,7 +115,7 @@ Catalogs your Talon repo's contributions and dependencies, generates version val
 ---
 
 
-### talon&#8209;parrot&#8209;tester
+### talon-parrot-tester
 
 🔗 **GitHub:** [rokubop/talon-parrot-tester](https://github.com/rokubop/talon-parrot-tester)
 
@@ -130,7 +130,7 @@ Visual tool for testing parrot integration with Talon
 | **Namespace** | `user.parrot_tester` |
 | **Tags** | parrot |
 | **License** | MIT |
-| **Dependencies** | talon-ui-elements `v0.14.0` |
+| **Dependencies** | [talon-ui-elements](#talon-ui-elements) `v0.14.0` |
 | **Contributes** | 5 actions, 1 tags |
 
 <details>
@@ -151,7 +151,7 @@ Visual tool for testing parrot integration with Talon
 ---
 
 
-### talon&#8209;rig&#8209;core
+### talon-rig-core
 
 🔗 **GitHub:** [rokubop/talon-rig-core](https://github.com/rokubop/talon-rig-core)
 
@@ -178,7 +178,7 @@ Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base clas
 ---
 
 
-### talon&#8209;mouse&#8209;rig
+### talon-mouse-rig
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
@@ -193,8 +193,8 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Namespace** | `user.mouse_rig` |
 | **Tags** | mouse, movement |
 | **License** | MIT |
-| **Dependencies** | talon-rig-core `v0.5.0` |
-| **Dev Dependencies** | talon-ui-elements `v0.14.0` |
+| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.5.0` |
+| **Dev Dependencies** | [talon-ui-elements](#talon-ui-elements) `v0.14.0` |
 | **Contributes** | 43 actions, 16 settings |
 
 <details>
@@ -268,7 +268,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 ---
 
 
-### talon&#8209;gamepad&#8209;rig
+### talon-gamepad-rig
 
 🔗 **GitHub:** [rokubop/talon-gamepad-rig](https://github.com/rokubop/talon-gamepad-rig)
 
@@ -279,8 +279,9 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 | | |
 |---|---|
 | **Namespace** | `user.gamepad_rig` |
-| **Dependencies** | talon-rig-core `v0.5.0` |
-| **Dev Dependencies** | community `v`, talon-ui-elements `v0.15.0` |
+| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.5.0` |
+| **Dev Dependencies** | [community](https://github.com/talonhub/community), [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
+| **Pip Dependencies** | [vgamepad](https://pypi.org/project/vgamepad/) |
 | **Contributes** | 13 actions, 2 settings |
 
 <details>
@@ -310,7 +311,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 ---
 
 
-### talon&#8209;input&#8209;map
+### talon-input-map
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
@@ -384,7 +385,7 @@ This is an alternate way to define your input commands in a way that supports co
 ---
 
 
-### talon&#8209;stable&#8209;input
+### talon-stable-input
 
 🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
 
@@ -424,7 +425,7 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 ---
 
 
-### talon&#8209;parrot&#8209;rig
+### talon-parrot-rig
 
 🔗 **GitHub:** [rokubop/talon-parrot-rig](https://github.com/rokubop/talon-parrot-rig)
 
@@ -440,7 +441,7 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 | **Tags** | parrot, mouse |
 | **License** | Unlicense |
 | **Requires** | Eye Tracker, Parrot, Talon Beta |
-| **Dependencies** | talon-input-map `v0.7.1`, talon-mouse-rig `v4.0.0`, talon-rig-core `v0.5.0`, talon-ui-elements `v0.15.0` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v0.7.1`, [talon-mouse-rig](#talon-mouse-rig) `v4.0.0`, [talon-rig-core](#talon-rig-core) `v0.5.0`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Contributes** | 45 actions, 1 modes |
 
 <details>

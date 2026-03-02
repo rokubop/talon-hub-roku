@@ -120,8 +120,41 @@ def generate_table_row(manifest: dict) -> str:
     return f"| {name_link} | {description} |"
 
 
-def generate_package_details(manifest: dict) -> str:
+def format_dep_link(dep_name: str, dep_info, readme_names: set[str]) -> str:
+    """Format a dependency with a link (README anchor, GitHub, or plain text)."""
+    if isinstance(dep_info, dict):
+        version = dep_info.get("min_version", "")
+        github = dep_info.get("github", "")
+    else:
+        version = ""
+        github = ""
+
+    version_suffix = f" `v{version}`" if version else ""
+
+    # Link to README section if the package exists there
+    if dep_name in readme_names:
+        return f"[{dep_name}](#{dep_name}){version_suffix}"
+    # Link to GitHub if available
+    if github:
+        return f"[{dep_name}]({github}){version_suffix}"
+    return f"{dep_name}{version_suffix}"
+
+
+def format_pip_dep_link(dep_name: str, dep_info) -> str:
+    """Format a pip dependency with a link to PyPI."""
+    if isinstance(dep_info, dict):
+        version = dep_info.get("version", "")
+    else:
+        version = ""
+
+    version_suffix = f" `{version}`" if version and version != "*" else ""
+    return f"[{dep_name}](https://pypi.org/project/{dep_name}/){version_suffix}"
+
+
+def generate_package_details(manifest: dict, readme_names: set[str] = None) -> str:
     """Generate detailed section for a package."""
+    if readme_names is None:
+        readme_names = set()
     name = manifest.get("name", "")
     version = manifest.get("version", "-")
     status = format_status(manifest.get("status", "unknown"))
@@ -135,9 +168,8 @@ def generate_package_details(manifest: dict) -> str:
     platforms = manifest.get("platforms", [])
     license_type = manifest.get("license", "")
 
-    # Start with header using non-breaking dashes for display
-    display_name = format_name_display(name)
-    details = f"\n### {display_name}\n\n"
+    # Use plain name in heading so GitHub anchor links work correctly
+    details = f"\n### {name}\n\n"
 
     # GitHub link prominently after header
     if github:
@@ -209,26 +241,20 @@ def generate_package_details(manifest: dict) -> str:
     # Dependencies section
     dependencies = manifest.get("dependencies", {})
     if dependencies:
-        dep_list = []
-        for dep_name, dep_info in dependencies.items():
-            if isinstance(dep_info, dict):
-                dep_version = dep_info.get("min_version", "")
-                dep_list.append(f"{dep_name} `v{dep_version}`")
-            else:
-                dep_list.append(dep_name)
+        dep_list = [format_dep_link(n, i, readme_names) for n, i in dependencies.items()]
         details += f"| **Dependencies** | {", ".join(dep_list)} |\n"
 
     # Dev dependencies
     dev_deps = manifest.get("devDependencies", {})
     if dev_deps:
-        dev_list = []
-        for dep_name, dep_info in dev_deps.items():
-            if isinstance(dep_info, dict):
-                dep_version = dep_info.get("min_version", "")
-                dev_list.append(f"{dep_name} `v{dep_version}`")
-            else:
-                dev_list.append(dep_name)
+        dev_list = [format_dep_link(n, i, readme_names) for n, i in dev_deps.items()]
         details += f"| **Dev Dependencies** | {", ".join(dev_list)} |\n"
+
+    # Pip dependencies
+    pip_deps = manifest.get("pipDependencies", {})
+    if pip_deps:
+        pip_list = [format_pip_dep_link(n, i) for n, i in pip_deps.items()]
+        details += f"| **Pip Dependencies** | {", ".join(pip_list)} |\n"
 
     # Contributes section
     contributes = manifest.get("contributes", {})
@@ -355,8 +381,11 @@ def generate_readme(
         table_lines.append(generate_table_row(manifest))
     packages_table = "\n".join(table_lines)
 
+    # Collect all package names for internal linking
+    readme_names = {m.get("name", "") for m in manifests}
+
     # Generate package details
-    package_details = "\n".join(generate_package_details(manifest) for manifest in manifests)
+    package_details = "\n".join(generate_package_details(manifest, readme_names) for manifest in manifests)
 
     # Load template
     with open(template_path, "r", encoding="utf-8") as f:
