@@ -15,6 +15,7 @@ Auto-generated from repo manifests.
 | **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
 | **[talon&#8209;gamepad&#8209;rig](#talon-gamepad-rig)** | All purpose gamepad rig with advanced stick manipulation and button handling, for Talon. |
 | **[talon&#8209;input&#8209;map](#talon-input-map)** | This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source. |
+| **[talon&#8209;noise&#8209;map](#talon-noise-map)** | Advanced remapping for your default Talon pop and hiss noises, using talon-input-map |
 | **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
 | **[talon&#8209;parrot&#8209;rig](#talon-parrot-rig)** | A general-purpose 14-noise parrot mode for hands-free mouse control in Talon. |
 
@@ -182,7 +183,7 @@ Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base clas
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-4.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-4.1.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -272,7 +273,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 
 🔗 **GitHub:** [rokubop/talon-gamepad-rig](https://github.com/rokubop/talon-gamepad-rig)
 
-![Version](https://img.shields.io/badge/version-0.7.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.8.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
 
 All purpose gamepad rig with advanced stick manipulation and button handling, for Talon.
 
@@ -315,7 +316,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-0.8.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
@@ -326,7 +327,7 @@ This is an alternate way to define your input commands in a way that supports co
 | **Namespace** | `user.input_map` |
 | **Tags** | parrot, noise, foot pedal, face |
 | **License** | MIT |
-| **Contributes** | 43 actions, 2 settings |
+| **Contributes** | 44 actions, 2 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -353,6 +354,7 @@ This is an alternate way to define your input commands in a way that supports co
 - `user.input_map_event_unregister`
 - `user.input_map_get`
 - `user.input_map_get_legend`
+- `user.input_map_get_talon_commands`
 - `user.input_map_handle`
 - `user.input_map_handle_bool`
 - `user.input_map_handle_parrot`
@@ -379,6 +381,46 @@ This is an alternate way to define your input commands in a way that supports co
 **Settings:**
 - `user.input_map_combo_window`
 - `user.input_map_edge_debounce_ms`
+
+</details>
+
+---
+
+
+### talon-noise-map
+
+🔗 **GitHub:** [rokubop/talon-noise-map](https://github.com/rokubop/talon-noise-map)
+
+![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-noise-map?style=social)
+
+Advanced remapping for your default Talon pop and hiss noises, using talon-input-map
+
+| | |
+|---|---|
+| **Namespace** | `user.noise_map` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.0` |
+| **Contributes** | 13 actions, 1 tags |
+
+<details>
+<summary>View all contributions</summary>
+
+**Actions:**
+- `user.noise_map`
+- `user.noise_map_disable`
+- `user.noise_map_enable`
+- `user.noise_map_event_register`
+- `user.noise_map_event_unregister`
+- `user.noise_map_get`
+- `user.noise_map_get_legend`
+- `user.noise_map_mode_cycle`
+- `user.noise_map_mode_get`
+- `user.noise_map_mode_revert`
+- `user.noise_map_mode_set`
+- `user.noise_map_reset`
+- `user.noise_map_version`
+
+**Tags:**
+- `user.noise_map_active`
 
 </details>
 

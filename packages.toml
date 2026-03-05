@@ -20,6 +20,9 @@ github = "https://github.com/rokubop/talon-gamepad-rig"
 github = "https://github.com/rokubop/talon-input-map"
 
 [[packages]]
+github = "https://github.com/rokubop/talon-noise-map"
+
+[[packages]]
 github = "https://github.com/rokubop/talon-stable-input"
 
 [[packages]]
