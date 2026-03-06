@@ -1,0 +1,27 @@
+name: Generate README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:       # manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "docs: auto-generate README" && git push)
