@@ -9,7 +9,7 @@ Auto-generated from repo manifests.
 | Name | Description |
 |------|-------------|
 | **[talon&#8209;ui&#8209;elements](#talon-ui-elements)** | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
-| **[talon&#8209;pack](#talon-pack)** | Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges. |
+| **[talon&#8209;pack](#talon-pack)** | CLI tool for Talon repos. Catalogs contributions and dependencies, manages versioning, and generates README badges. |
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
 | **[talon&#8209;rig&#8209;core](#talon-rig-core)** | Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base classes, lifecycle, layer groups, mode operations, and animation infrastructure. |
 | **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
@@ -101,9 +101,9 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
-Catalogs your Talon repo's contributions and dependencies, generates version validation, and updates your README with badges.
+CLI tool for Talon repos. Catalogs contributions and dependencies, manages versioning, and generates README badges.
 
 <img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg">
 
@@ -471,7 +471,7 @@ Bind keys or pedals to Talon actions that won't be interrupted by voice commands
 
 🔗 **GitHub:** [rokubop/talon-parrot-rig](https://github.com/rokubop/talon-parrot-rig)
 
-![Version](https://img.shields.io/badge/version-1.3.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
+![Version](https://img.shields.io/badge/version-1.4.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
 
 A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 
@@ -483,7 +483,7 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 | **Tags** | parrot, mouse |
 | **License** | Unlicense |
 | **Requires** | Eye Tracker, Parrot, Talon Beta |
-| **Dependencies** | [talon-input-map](#talon-input-map) `v0.7.1`, [talon-mouse-rig](#talon-mouse-rig) `v4.0.0`, [talon-rig-core](#talon-rig-core) `v0.5.0`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.0`, [talon-mouse-rig](#talon-mouse-rig) `v4.1.0`, [talon-rig-core](#talon-rig-core) `v0.5.0`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Contributes** | 45 actions, 1 modes |
 
 <details>
