@@ -101,7 +101,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.2.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.2.1-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
 CLI tool for Talon repos. Catalogs contributions and dependencies, manages versioning, and generates README badges.
 
@@ -156,7 +156,7 @@ Visual tool for testing parrot integration with Talon
 
 🔗 **GitHub:** [rokubop/talon-rig-core](https://github.com/rokubop/talon-rig-core)
 
-![Version](https://img.shields.io/badge/version-0.6.3-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-rig-core?style=social)
+![Version](https://img.shields.io/badge/version-0.6.4-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-rig-core?style=social)
 
 Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base classes, lifecycle, layer groups, mode operations, and animation infrastructure.
 
@@ -273,17 +273,19 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 
 🔗 **GitHub:** [rokubop/talon-gamepad-rig](https://github.com/rokubop/talon-gamepad-rig)
 
-![Version](https://img.shields.io/badge/version-0.8.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.8.3-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
 
 All purpose gamepad rig with advanced stick manipulation and button handling, for Talon.
 
 | | |
 |---|---|
 | **Namespace** | `user.gamepad_rig` |
+| **Platforms** | windows, linux |
+| **Requires** | Gamepad |
 | **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.3` |
 | **Dev Dependencies** | [community](https://github.com/talonhub/community), [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Pip Dependencies** | [vgamepad](https://pypi.org/project/vgamepad/) |
-| **Contributes** | 13 actions, 2 settings |
+| **Contributes** | 14 actions, 2 settings, 1 tags |
 
 <details>
 <summary>View all contributions</summary>
@@ -300,12 +302,16 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 - `user.gamepad_rig_reset`
 - `user.gamepad_rig_state`
 - `user.gamepad_rig_stop`
+- `user.gamepad_rig_test_record`
 - `user.gamepad_rig_tests`
 - `user.gamepad_rig_version`
 
 **Settings:**
 - `user.gamepad_rig_stick_deadzone`
 - `user.gamepad_rig_trigger_deadzone`
+
+**Tags:**
+- `user.gamepad_rig_test`
 
 </details>
 
