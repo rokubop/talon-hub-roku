@@ -9,7 +9,7 @@ Auto-generated from repo manifests.
 | Name | Description |
 |------|-------------|
 | **[talon&#8209;ui&#8209;elements](#talon-ui-elements)** | Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon. |
-| **[talon&#8209;pack](#talon-pack)** | CLI tool for Talon repos. Catalogs contributions and dependencies, manages versioning, and generates README badges. |
+| **[talon&#8209;pack](#talon-pack)** | CLI tool that helps you manage Talon repositories. Auto-detect contributions, manage versioning, and install/update repos and their dependencies. |
 | **[talon&#8209;parrot&#8209;tester](#talon-parrot-tester)** | Visual tool for testing parrot integration with Talon |
 | **[talon&#8209;rig&#8209;core](#talon-rig-core)** | Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base classes, lifecycle, layer groups, mode operations, and animation infrastructure. |
 | **[talon&#8209;mouse&#8209;rig](#talon-mouse-rig)** | All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games. |
@@ -101,9 +101,9 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.2.1-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.2.5-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
-CLI tool for Talon repos. Catalogs contributions and dependencies, manages versioning, and generates README badges.
+CLI tool that helps you manage Talon repositories. Auto-detect contributions, manage versioning, and install/update repos and their dependencies.
 
 <img src="https://raw.githubusercontent.com/rokubop/talon-pack/main/preview.svg">
 
@@ -156,9 +156,11 @@ Visual tool for testing parrot integration with Talon
 
 🔗 **GitHub:** [rokubop/talon-rig-core](https://github.com/rokubop/talon-rig-core)
 
-![Version](https://img.shields.io/badge/version-0.6.4-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-rig-core?style=social)
+![Version](https://img.shields.io/badge/version-0.6.5-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-rig-core?style=social)
 
 Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base classes, lifecycle, layer groups, mode operations, and animation infrastructure.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-rig-core/main/preview.svg">
 
 | | |
 |---|---|
@@ -273,9 +275,11 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 
 🔗 **GitHub:** [rokubop/talon-gamepad-rig](https://github.com/rokubop/talon-gamepad-rig)
 
-![Version](https://img.shields.io/badge/version-0.8.3-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
+![Version](https://img.shields.io/badge/version-0.8.4-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-gamepad-rig?style=social)
 
 All purpose gamepad rig with advanced stick manipulation and button handling, for Talon.
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-gamepad-rig/main/preview.svg">
 
 | | |
 |---|---|
@@ -397,9 +401,11 @@ This is an alternate way to define your input commands in a way that supports co
 
 🔗 **GitHub:** [rokubop/talon-noise-map](https://github.com/rokubop/talon-noise-map)
 
-![Version](https://img.shields.io/badge/version-0.5.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-noise-map?style=social)
+![Version](https://img.shields.io/badge/version-0.5.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-noise-map?style=social)
 
 Advanced remapping for your default Talon pop and hiss noises, using talon-input-map
+
+<img src="https://raw.githubusercontent.com/rokubop/talon-noise-map/main/preview.svg">
 
 | | |
 |---|---|
