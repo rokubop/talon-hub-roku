@@ -101,7 +101,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.2.5-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.3.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
 CLI tool that helps you manage Talon repositories. Auto-detect contributions, manage versioning, and install/update repos and their dependencies.
 
@@ -286,8 +286,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 | **Namespace** | `user.gamepad_rig` |
 | **Platforms** | windows, linux |
 | **Requires** | Gamepad |
-| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.3` |
-| **Dev Dependencies** | [community](https://github.com/talonhub/community), [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
+| **Dependencies** | [community](https://github.com/talonhub/community), [talon-rig-core](#talon-rig-core) `v0.6.3`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Pip Dependencies** | [vgamepad](https://pypi.org/project/vgamepad/) |
 | **Contributes** | 14 actions, 2 settings, 1 tags |
 
