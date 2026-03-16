@@ -16,7 +16,7 @@ Auto-generated from repo manifests.
 | **[talon&#8209;gamepad&#8209;rig](#talon-gamepad-rig)** | All purpose gamepad rig with advanced stick manipulation and button handling, for Talon. |
 | **[talon&#8209;input&#8209;map](#talon-input-map)** | This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source. |
 | **[talon&#8209;noise&#8209;map](#talon-noise-map)** | Advanced remapping for your default Talon pop and hiss noises, using talon-input-map |
-| **[talon&#8209;stable&#8209;input](#talon-stable-input)** | Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput. |
+| **[talon&#8209;pynput](#talon-pynput)** | pynput key listener for Talon. Register any key, combo, or sequence to trigger callbacks on a separate thread, so voice commands won't interrupt your input. |
 | **[talon&#8209;parrot&#8209;rig](#talon-parrot-rig)** | A general-purpose 14-noise parrot mode for hands-free mouse control in Talon. |
 
 ---
@@ -28,7 +28,7 @@ Auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.15.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.16.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -39,7 +39,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 | **Namespace** | `user.ui_elements` |
 | **Tags** | ui |
 | **License** | MIT |
-| **Contributes** | 31 actions, 7 settings, 1 tags, 1 captures |
+| **Contributes** | 31 actions, 7 settings, 2 tags, 1 captures |
 
 <details>
 <summary>View all contributions</summary>
@@ -88,6 +88,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 **Tags:**
 - `user.ui_elements_hints_active`
+- `user.ui_elements_typing`
 
 **Captures:**
 - `user.ui_elements_hint_target`
@@ -120,7 +121,7 @@ CLI tool that helps you manage Talon repositories. Auto-detect contributions, ma
 
 🔗 **GitHub:** [rokubop/talon-parrot-tester](https://github.com/rokubop/talon-parrot-tester)
 
-![Version](https://img.shields.io/badge/version-0.8.1-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-tester?style=social)
+![Version](https://img.shields.io/badge/version-0.8.2-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-tester?style=social)
 
 Visual tool for testing parrot integration with Talon
 
@@ -131,7 +132,7 @@ Visual tool for testing parrot integration with Talon
 | **Namespace** | `user.parrot_tester` |
 | **Tags** | parrot |
 | **License** | MIT |
-| **Dependencies** | [talon-ui-elements](#talon-ui-elements) `v0.14.0` |
+| **Dependencies** | [talon-ui-elements](#talon-ui-elements) `v0.16.0` |
 | **Contributes** | 5 actions, 1 tags |
 
 <details>
@@ -196,8 +197,7 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Namespace** | `user.mouse_rig` |
 | **Tags** | mouse, movement |
 | **License** | MIT |
-| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.3` |
-| **Dev Dependencies** | [talon-ui-elements](#talon-ui-elements) `v0.14.0` |
+| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Contributes** | 43 actions, 16 settings |
 
 <details>
@@ -286,7 +286,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 | **Namespace** | `user.gamepad_rig` |
 | **Platforms** | windows, linux |
 | **Requires** | Gamepad |
-| **Dependencies** | [community](https://github.com/talonhub/community), [talon-rig-core](#talon-rig-core) `v0.6.3`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
+| **Dependencies** | [community](https://github.com/talonhub/community), [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
 | **Pip Dependencies** | [vgamepad](https://pypi.org/project/vgamepad/) |
 | **Contributes** | 14 actions, 2 settings, 1 tags |
 
@@ -325,7 +325,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
+![Version](https://img.shields.io/badge/version-1.0.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
@@ -336,7 +336,7 @@ This is an alternate way to define your input commands in a way that supports co
 | **Namespace** | `user.input_map` |
 | **Tags** | parrot, noise, foot pedal, face |
 | **License** | MIT |
-| **Contributes** | 44 actions, 2 settings |
+| **Contributes** | 45 actions, 2 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -364,6 +364,7 @@ This is an alternate way to define your input commands in a way that supports co
 - `user.input_map_get`
 - `user.input_map_get_legend`
 - `user.input_map_get_talon_commands`
+- `user.input_map_get_talon_commands_grouped`
 - `user.input_map_handle`
 - `user.input_map_handle_bool`
 - `user.input_map_handle_parrot`
@@ -409,7 +410,7 @@ Advanced remapping for your default Talon pop and hiss noises, using talon-input
 | | |
 |---|---|
 | **Namespace** | `user.noise_map` |
-| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.0` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.1` |
 | **Contributes** | 13 actions, 1 tags |
 
 <details>
@@ -438,40 +439,33 @@ Advanced remapping for your default Talon pop and hiss noises, using talon-input
 ---
 
 
-### talon-stable-input
+### talon-pynput
 
-🔗 **GitHub:** [rokubop/talon-stable-input](https://github.com/rokubop/talon-stable-input)
+🔗 **GitHub:** [rokubop/talon-pynput](https://github.com/rokubop/talon-pynput)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-stable-input?style=social)
+![Version](https://img.shields.io/badge/version-0.2.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pynput?style=social)
 
-Bind keys or pedals to Talon actions that won't be interrupted by voice commands.  Uses pynput.
+pynput key listener for Talon. Register any key, combo, or sequence to trigger callbacks on a separate thread, so voice commands won't interrupt your input.
 
-<img src="https://raw.githubusercontent.com/rokubop/talon-stable-input/main/preview.svg">
+<img src="https://raw.githubusercontent.com/rokubop/talon-pynput/main/preview.svg">
 
 | | |
 |---|---|
-| **Namespace** | `user.stable_input` |
-| **Tags** | stable, input, pedal, keys |
-| **License** | MIT |
-| **Contributes** | 13 actions |
+| **Namespace** | `user.pynput` |
+| **Pip Dependencies** | [pynput](https://pypi.org/project/pynput/) |
+| **Contributes** | 7 actions |
 
 <details>
 <summary>View all contributions</summary>
 
 **Actions:**
-- `user.stable_input_1_down`
-- `user.stable_input_1_up`
-- `user.stable_input_2_down`
-- `user.stable_input_2_up`
-- `user.stable_input_3_down`
-- `user.stable_input_3_up`
-- `user.stable_input_4_down`
-- `user.stable_input_4_up`
-- `user.stable_input_disable`
-- `user.stable_input_enable`
-- `user.stable_input_is_enabled`
-- `user.stable_input_is_held`
-- `user.stable_input_version`
+- `user.pynput_is_active`
+- `user.pynput_is_held`
+- `user.pynput_register`
+- `user.pynput_tests`
+- `user.pynput_unregister`
+- `user.pynput_unregister_last`
+- `user.pynput_version`
 
 </details>
 

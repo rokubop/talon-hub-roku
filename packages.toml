@@ -23,7 +23,7 @@ github = "https://github.com/rokubop/talon-input-map"
 github = "https://github.com/rokubop/talon-noise-map"
 
 [[packages]]
-github = "https://github.com/rokubop/talon-stable-input"
+github = "https://github.com/rokubop/talon-pynput"
 
 [[packages]]
 github = "https://github.com/rokubop/talon-parrot-rig"
