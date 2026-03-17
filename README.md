@@ -476,7 +476,7 @@ pynput key listener for Talon. Register any key, combo, or sequence to trigger c
 
 🔗 **GitHub:** [rokubop/talon-parrot-rig](https://github.com/rokubop/talon-parrot-rig)
 
-![Version](https://img.shields.io/badge/version-1.4.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
+![Version](https://img.shields.io/badge/version-1.4.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
 
 A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 
@@ -488,7 +488,7 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 | **Tags** | parrot, mouse |
 | **License** | Unlicense |
 | **Requires** | Eye Tracker, Parrot, Talon Beta |
-| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.0`, [talon-mouse-rig](#talon-mouse-rig) `v4.1.0`, [talon-rig-core](#talon-rig-core) `v0.5.0`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.1`, [talon-mouse-rig](#talon-mouse-rig) `v4.1.1`, [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.16.0` |
 | **Contributes** | 45 actions, 1 modes |
 
 <details>
