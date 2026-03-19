@@ -186,7 +186,7 @@ Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base clas
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-4.1.1-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-4.2.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -197,8 +197,8 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 | **Namespace** | `user.mouse_rig` |
 | **Tags** | mouse, movement |
 | **License** | MIT |
-| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.15.0` |
-| **Contributes** | 43 actions, 16 settings |
+| **Dependencies** | [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.16.0` |
+| **Contributes** | 43 actions, 14 settings |
 
 <details>
 <summary>View all contributions</summary>
@@ -251,8 +251,6 @@ All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific
 **Settings:**
 - `user.mouse_rig_api`
 - `user.mouse_rig_frame_interval`
-- `user.mouse_rig_manual_movement_timeout_ms`
-- `user.mouse_rig_pause_on_manual_movement`
 - `user.mouse_rig_scale`
 - `user.mouse_rig_scroll_api`
 - `user.mouse_rig_smooth_delta_easing`
