@@ -107,7 +107,7 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 
 🔗 **GitHub:** [rokubop/talon-pack](https://github.com/rokubop/talon-pack)
 
-![Version](https://img.shields.io/badge/version-3.3.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
+![Version](https://img.shields.io/badge/version-3.3.1-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-pack?style=social)
 
 CLI tool that helps you manage Talon repositories. Auto-detect contributions, manage versioning, and install/update repos and their dependencies.
 
@@ -328,7 +328,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-1.0.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
+![Version](https://img.shields.io/badge/version-1.1.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
@@ -404,7 +404,7 @@ This is an alternate way to define your input commands in a way that supports co
 
 🔗 **GitHub:** [rokubop/talon-noise-map](https://github.com/rokubop/talon-noise-map)
 
-![Version](https://img.shields.io/badge/version-0.5.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-noise-map?style=social)
+![Version](https://img.shields.io/badge/version-0.5.2-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-noise-map?style=social)
 
 Advanced remapping for your default Talon pop and hiss noises, using talon-input-map
 
@@ -413,7 +413,7 @@ Advanced remapping for your default Talon pop and hiss noises, using talon-input
 | | |
 |---|---|
 | **Namespace** | `user.noise_map` |
-| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.1` |
+| **Dependencies** | [talon-input-map](#talon-input-map) `v1.1.1` |
 | **Contributes** | 13 actions, 1 tags |
 
 <details>
