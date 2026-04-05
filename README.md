@@ -28,7 +28,7 @@ Auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.17.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.18.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -328,7 +328,7 @@ All purpose gamepad rig with advanced stick manipulation and button handling, fo
 
 🔗 **GitHub:** [rokubop/talon-input-map](https://github.com/rokubop/talon-input-map/)
 
-![Version](https://img.shields.io/badge/version-1.1.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
+![Version](https://img.shields.io/badge/version-1.1.3-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-input-map?style=social)
 
 This is an alternate way to define your input commands in a way that supports combos, throttling, debounce, switching out configs easily without needing to create new modes. Works with parrot noises, foot pedals, face tracking, or any other input source.
 
