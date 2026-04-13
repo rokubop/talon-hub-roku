@@ -28,7 +28,7 @@ Auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.18.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.19.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -39,14 +39,13 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 | **Namespace** | `user.ui_elements` |
 | **Tags** | ui |
 | **License** | MIT |
-| **Contributes** | 35 actions, 8 settings, 2 tags, 1 captures |
+| **Contributes** | 33 actions, 8 settings, 2 tags, 1 captures |
 
 <details>
 <summary>View all contributions</summary>
 
 **Actions:**
 - `user.ui_elements`
-- `user.ui_elements_close_focused`
 - `user.ui_elements_debug_gc`
 - `user.ui_elements_dev_tools`
 - `user.ui_elements_examples`
@@ -61,14 +60,13 @@ Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For 
 - `user.ui_elements_hint_action`
 - `user.ui_elements_is_active`
 - `user.ui_elements_key_action`
+- `user.ui_elements_register`
 - `user.ui_elements_register_effect`
 - `user.ui_elements_reset_all_scale_overrides`
 - `user.ui_elements_scale_decrease`
 - `user.ui_elements_scale_increase`
 - `user.ui_elements_scale_reset`
-- `user.ui_elements_scroll_down`
-- `user.ui_elements_scroll_to_id`
-- `user.ui_elements_scroll_up`
+- `user.ui_elements_scroll_action`
 - `user.ui_elements_set_property`
 - `user.ui_elements_set_state`
 - `user.ui_elements_set_text`
