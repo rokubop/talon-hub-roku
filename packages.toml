@@ -28,12 +28,12 @@ github = "https://github.com/rokubop/talon-pynput"
 [[packages]]
 github = "https://github.com/rokubop/talon-parrot-rig"
 
+[[packages]]
+github = "https://github.com/rokubop/talon-parrot-model-roku"
+
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-face-tester"
 # path = "../talon-face-tester"
-
-# [[packages]]
-# path = "../talon-parrot-roku-model"
 
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-obs-integration"
