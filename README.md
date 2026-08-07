@@ -18,6 +18,7 @@ Auto-generated from repo manifests.
 | **[talon&#8209;noise&#8209;map](#talon-noise-map)** | Advanced remapping for your default Talon pop and hiss noises, using talon-input-map |
 | **[talon&#8209;pynput](#talon-pynput)** | pynput key listener for Talon. Register any key, combo, or sequence to trigger callbacks on a separate thread, so voice commands won't interrupt your input. |
 | **[talon&#8209;parrot&#8209;rig](#talon-parrot-rig)** | A general-purpose 14-noise parrot mode for hands-free mouse control in Talon. |
+| **[talon&#8209;parrot&#8209;model&#8209;roku](#talon-parrot-model-roku)** | My personal 14 noise parrot model trained on an OpenComm Shokz 2, plus the raw recordings and patterns file |
 
 ---
 
@@ -28,7 +29,7 @@ Auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.19.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.20.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -189,7 +190,7 @@ Shared core library for device rigs (mouse-rig, gamepad-rig). Provides base clas
 
 🔗 **GitHub:** [rokubop/talon-mouse-rig](https://github.com/rokubop/talon-mouse-rig)
 
-![Version](https://img.shields.io/badge/version-4.2.0-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
+![Version](https://img.shields.io/badge/version-4.2.1-blue) ![Status](https://img.shields.io/badge/status-preview-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-mouse-rig?style=social)
 
 All purpose mouse rig for Talon with movement and scrolling. Prefers OS-specific relative movement to be compatible with games.
 
@@ -546,6 +547,22 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 - `user.parrot_rig`
 
 </details>
+
+---
+
+
+### talon-parrot-model-roku
+
+🔗 **GitHub:** [rokubop/talon-parrot-model-roku](https://github.com/rokubop/talon-parrot-model-roku)
+
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Status](https://img.shields.io/badge/status-reference-blue) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-model-roku?style=social)
+
+My personal 14 noise parrot model trained on an OpenComm Shokz 2, plus the raw recordings and patterns file
+
+| | |
+|---|---|
+| **Tags** | parrot |
+
 
 ---
 
