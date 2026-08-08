@@ -1,6 +1,6 @@
 # Talon Hub Roku
 
-A collection of my Talon repos for UI, mouse control, input mapping, parrot, and eventually gaming.
+A collection of my Talon repos for UI, mouse control, input mapping, parrot, and eventually gaming, plus related tools.
 
 Auto-generated from repo manifests.
 
@@ -19,6 +19,7 @@ Auto-generated from repo manifests.
 | **[talon&#8209;pynput](#talon-pynput)** | pynput key listener for Talon. Register any key, combo, or sequence to trigger callbacks on a separate thread, so voice commands won't interrupt your input. |
 | **[talon&#8209;parrot&#8209;rig](#talon-parrot-rig)** | A general-purpose 14-noise parrot mode for hands-free mouse control in Talon. |
 | **[talon&#8209;parrot&#8209;model&#8209;roku](#talon-parrot-model-roku)** | My personal 14 noise parrot model trained on an OpenComm Shokz 2, plus the raw recordings and patterns file |
+| **[glydr&#8209;denshattack&#8209;hud](#glydr-denshattack-hud)** | Glydr foot pedal HUD + F key remap for Denshattack. Standalone Python, no Talon required. Transparent overlay lights up the pedal section you pressed and sends the mapped key to the game. |
 
 ---
 
@@ -562,6 +563,26 @@ My personal 14 noise parrot model trained on an OpenComm Shokz 2, plus the raw r
 | | |
 |---|---|
 | **Tags** | parrot |
+
+
+---
+
+
+### glydr-denshattack-hud
+
+🔗 **GitHub:** [rokubop/glydr-denshattack-hud](https://github.com/rokubop/glydr-denshattack-hud)
+
+![Version](https://img.shields.io/badge/version-0.1.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/glydr-denshattack-hud?style=social)
+
+Glydr foot pedal HUD + F key remap for Denshattack. Standalone Python, no Talon required. Transparent overlay lights up the pedal section you pressed and sends the mapped key to the game.
+
+<img src="https://raw.githubusercontent.com/rokubop/glydr-denshattack-hud/main/preview.png">
+
+| | |
+|---|---|
+| **Tags** | glydr, foot-pedal, hud, gaming, standalone |
+| **Platforms** | windows, mac, linux |
+| **Pip Dependencies** | [pynput](https://pypi.org/project/pynput/) |
 
 
 ---

@@ -31,6 +31,9 @@ github = "https://github.com/rokubop/talon-parrot-rig"
 [[packages]]
 github = "https://github.com/rokubop/talon-parrot-model-roku"
 
+[[packages]]
+github = "https://github.com/rokubop/glydr-denshattack-hud"
+
 # [[packages]]
 # # # github = "https://github.com/rokubop/talon-face-tester"
 # path = "../talon-face-tester"
