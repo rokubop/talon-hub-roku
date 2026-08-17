@@ -30,7 +30,7 @@ Auto-generated from repo manifests.
 
 🔗 **GitHub:** [rokubop/talon-ui-elements](https://github.com/rokubop/talon-ui-elements)
 
-![Version](https://img.shields.io/badge/version-0.20.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
+![Version](https://img.shields.io/badge/version-0.21.0-blue) ![Status](https://img.shields.io/badge/status-stable-green) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-ui-elements?style=social)
 
 Create stateful canvas UIs using HTML/CSS/React-inspired syntax for python. For use with Talon.
 
@@ -479,7 +479,7 @@ pynput key listener for Talon. Register any key, combo, or sequence to trigger c
 
 🔗 **GitHub:** [rokubop/talon-parrot-rig](https://github.com/rokubop/talon-parrot-rig)
 
-![Version](https://img.shields.io/badge/version-1.4.1-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
+![Version](https://img.shields.io/badge/version-1.5.0-blue) ![Status](https://img.shields.io/badge/status-experimental-orange) ![GitHub stars](https://img.shields.io/github/stars/rokubop/talon-parrot-rig?style=social)
 
 A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 
@@ -491,13 +491,15 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 | **Tags** | parrot, mouse |
 | **License** | Unlicense |
 | **Requires** | Eye Tracker, Parrot, Talon Beta |
-| **Dependencies** | [talon-input-map](#talon-input-map) `v1.0.1`, [talon-mouse-rig](#talon-mouse-rig) `v4.1.1`, [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.16.0` |
-| **Contributes** | 45 actions, 1 modes |
+| **Dependencies** | [community](https://github.com/talonhub/community), [talon-input-map](#talon-input-map) `v1.0.1`, [talon-mouse-rig](#talon-mouse-rig) `v4.1.1`, [talon-rig-core](#talon-rig-core) `v0.6.5`, [talon-ui-elements](#talon-ui-elements) `v0.16.0` |
+| **Contributes** | 67 actions, 1 modes |
 
 <details>
 <summary>View all contributions</summary>
 
 **Actions:**
+- `user.parrot_rig_anchor_clear_all`
+- `user.parrot_rig_anchor_toggle`
 - `user.parrot_rig_boost_long`
 - `user.parrot_rig_burst_or_brake`
 - `user.parrot_rig_burst_or_brake_stop`
@@ -506,11 +508,24 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 - `user.parrot_rig_disable`
 - `user.parrot_rig_disable_modifiers`
 - `user.parrot_rig_enable`
+- `user.parrot_rig_er`
 - `user.parrot_rig_exit`
 - `user.parrot_rig_get_mode`
 - `user.parrot_rig_get_state`
+- `user.parrot_rig_menu_back`
+- `user.parrot_rig_menu_close`
+- `user.parrot_rig_menu_open`
 - `user.parrot_rig_move`
 - `user.parrot_rig_move_or_slow`
+- `user.parrot_rig_pop`
+- `user.parrot_rig_profile_delete`
+- `user.parrot_rig_profile_list`
+- `user.parrot_rig_profile_load`
+- `user.parrot_rig_profile_name_prompt`
+- `user.parrot_rig_profile_name_submit`
+- `user.parrot_rig_profile_save`
+- `user.parrot_rig_profile_save_current`
+- `user.parrot_rig_profile_slot`
 - `user.parrot_rig_reload`
 - `user.parrot_rig_repeat_command`
 - `user.parrot_rig_repeat_phrase`
@@ -521,6 +536,7 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 - `user.parrot_rig_scroll_boost_long`
 - `user.parrot_rig_scroll_burst_or_brake`
 - `user.parrot_rig_scroll_burst_or_brake_stop`
+- `user.parrot_rig_scroll_extreme`
 - `user.parrot_rig_scroll_move`
 - `user.parrot_rig_scroll_move_or_slow`
 - `user.parrot_rig_scroll_ramp`
@@ -530,9 +546,16 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 - `user.parrot_rig_scroll_stop_temp`
 - `user.parrot_rig_scroll_toggle_glide`
 - `user.parrot_rig_scroll_tracking_activate`
+- `user.parrot_rig_setting_custom_prompt`
+- `user.parrot_rig_setting_custom_submit`
+- `user.parrot_rig_setting_get`
+- `user.parrot_rig_setting_select`
+- `user.parrot_rig_settings_menu`
 - `user.parrot_rig_show_help`
+- `user.parrot_rig_show_setting_selector`
 - `user.parrot_rig_show_utility_selector`
 - `user.parrot_rig_simple_click`
+- `user.parrot_rig_snap`
 - `user.parrot_rig_stop`
 - `user.parrot_rig_toggle`
 - `user.parrot_rig_toggle_glide`
@@ -541,7 +564,6 @@ A general-purpose 14-noise parrot mode for hands-free mouse control in Talon.
 - `user.parrot_rig_tracking_activate`
 - `user.parrot_rig_utility`
 - `user.parrot_rig_utility_select`
-- `user.parrot_rig_utility_select_close`
 - `user.parrot_rig_version`
 
 **Modes:**
